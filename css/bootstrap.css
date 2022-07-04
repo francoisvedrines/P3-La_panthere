@@ -1406,7 +1406,7 @@ textarea {
 }
 
 a {
-    color: #337ab7;
+    color: white;
     text-decoration: none
 }
 
@@ -2042,7 +2042,6 @@ pre code {
 .col-sm-1,
 .col-sm-10,
 .col-sm-11,
-.col-sm-12,
 .col-sm-2,
 .col-sm-3,
 .col-sm-4,
@@ -2066,7 +2065,18 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    
+}
+
+.col-sm-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .col-xs-1,
