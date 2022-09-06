@@ -637,6 +637,7 @@ h4 {
 }
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin:auto;
 }
 .portfolio-row {
     margin-bottom: 44px;
@@ -669,6 +670,8 @@ h4 {
 .btn-atomic-tangerine {
     background: #9f3200;
     color: #fff;
+    margin: auto;
+    width: 150px;
 }
 .btn-atomic-tangerine:hover {
     background: #c27956;
